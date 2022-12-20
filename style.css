@@ -1,479 +1,476 @@
-.main-section{
-    width: auto;
-    height: 800px;
-    background-color: #3D087B;
+.main-section {
+  width: auto;
+  height: 800px;
+  background-color: #3d087b;
 }
-.container1{
-    top: 149px;
-        left: 124px;
-        width: 566px;
-        height: 363px;
-        position: absolute;
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        border: 1px solid var(--unnamed-color-ededed);
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border: 1px solid #EDEDED;
-        border-radius: 10px;
-        opacity: 1;
+.container1 {
+  top: 149px;
+  left: 124px;
+  width: 566px;
+  height: 363px;
+  position: absolute;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-ededed);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 1;
 }
-.container2{
-    top: 527px;
-        left: 124px;
-        width: 566px;
-        height: 77px;
-        position: absolute;
-        /* UI Properties */
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        border: 1px solid var(--unnamed-color-ededed);
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border: 1px solid #EDEDED;
-        border-radius: 10px;
-        opacity: 0.23;
+.container2 {
+  top: 527px;
+  left: 124px;
+  width: 566px;
+  height: 77px;
+  position: absolute;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-ededed);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 0.23;
 }
-.container3{
-    top: 624px;
-        left: 124px;
-        width: 299px;
-        height: 50px;
-        position: absolute;
-        /* UI Properties */
-        background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
-        border-radius: 4px;
-        opacity: 1;
+.container3 {
+  top: 624px;
+  left: 124px;
+  width: 299px;
+  height: 50px;
+  position: absolute;
+  /* UI Properties */
+  background: transparent
+    linear-gradient(113deg, #6e54ec 0%, #cb52f8 40%, #fc5eff 81%, #f1a7c5 100%)
+    0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
 }
-.container4{
-top: 615px;
-    left: 437px;
-    width: 253px;
-    height: 117px;
-    position: absolute;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-ededed);
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    opacity: 0.23;
-}
-.container5{
-    top: 42px;
-        left: 706px;
-        width: 536px;
-        height: 130px;
-        position: absolute;
-        /* UI Properties */
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        border: 1px solid var(--unnamed-color-ededed);
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border: 1px solid #EDEDED;
-        border-radius: 10px;
-        opacity: 1;
-}
-.container6{
-    top: 55px;
-        left: 766px;
-        width: 416px;
-        height: 130px;
-        position: absolute;
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 10px;
-        opacity: 0.71;
-}
-.container7{
-    top: 67px;
-        left: 785px;
-        width: 379px;
-        height: 130px;
-        position: absolute;
-        /* UI Properties */
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 10px;
-        opacity: 0.22;
-}
-.container8{
-    top: 212px;
-        left: 706px;
-        width: 536px;
-        height: 118px;
-        position: absolute;
-        /* UI Properties */
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        border: 1px solid var(--unnamed-color-ededed);
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border: 1px solid #EDEDED;
-        border-radius: 10px;
-        opacity: 1;
-}
-.container9{
-    top: 345px;
-        left: 707px;
-        width: 536px;
-        height: 341px;
-        position: absolute;
-        /* UI Properties */
-        background: transparent url('Component 30 – 1.svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
-}
-.container11{
-    top: 686px;
-        left: 56px;
-        width: 243px;
-        height: 64px;
-        position: absolute;
-        border-radius: 10px;
-        /* UI Properties */
-        color: #858585;
-        text-align: center;
-        line-height: 30px;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        box-shadow: 0px 0px 30px #00000029;
-        opacity: 1;
-}
-.sub-container1{
-    top: 10px;
-        left: 27px;
-        width: 517px;
-        height: 335px;
-        position: absolute;
-       
-        /* UI Properties */
-        opacity: 1;
-}
-.clock{
-    top: 38px;
-        left: 119px;
-        width: 204px;
-        height: 77px;
-        position: absolute;
-        /* UI Properties */
-        background: transparent url('clock_logo.png') 0% 0% no-repeat padding-box;
-        opacity: 1;
-}
-.container10{
-    top: 23px;
-        left: 474px;
-        width: 209px;
-        height: 78px;
-        border-radius: 8px;
-        position: absolute;
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        box-shadow: 0px 0px 30px #00000029;
-        opacity: 1;
-}
-#text1{
-    top: 33px;
-        left: 490px;
-        width: 166px;
-        height: 57px;
-        /* UI Properties */
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 14px/20px Inter;
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: center;
-        font: normal normal normal 14px/20px Inter;
-        letter-spacing: 0px;
-        color: #858585;
-        padding-left: 5px;
-        padding-top: 20px;
-        opacity: 1;
-}
-#text2{
-    top: 252px;
-        left: 728px;
-        width: 492px;
-        height: 38px;
-        /* UI Properties */
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-30)/40px var(--unnamed-font-family-bauhaus-hv-bt);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        color: var(--unnamed-color-8e53f0);
-        text-align: center;
-        font: normal normal 900 30px/40px Bauhaus Hv BT;
-        letter-spacing: 0px;
-        color: #8E53F0;
-        text-transform: uppercase;
-        
-        opacity: 1;
-}
-#text3{
-    top: 6px;
-        left: 83px;
-        width: 381px;
-        height: 34px;
-        position: absolute;
-        /* UI Properties */
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) 27px/34px var(--unnamed-font-family-bauhaus-hv-bt);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        color: var(--unnamed-color-ffffff);
-        text-align: left;
-        font: normal normal 900 27px/34px Bauhaus Hv BT;
-        letter-spacing: 0px;
-        color:black;
-        text-transform: uppercase;
-        opacity: 1;
-}
-#text4{
-    top: 3px;
-        left: 90px;
-        width: 111px;
-        height: 31px;
-        position: absolute;
-        /* UI Properties */
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        color: var(--unnamed-color-ffffff);
-        text-align: left;
-        font: normal normal 600 24px/38px Manrope;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-}
-#text5{
-    top: 625px;
-        left: 449px;
-        width: 200px;
-        height: 94px;
-        /* UI Properties */
-        font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        text-align: left;
-        font: normal normal bold 15px/25px Manrope;
-        letter-spacing: 0px;
-        color: #F25CFE;
-        opacity: 1;
-}
-#cont-1{
-    top: 45px;
-        left: 25px;
-        width: 46px;
-        height: 26px;
-       position: absolute;
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        color: var(--unnamed-color-3d087b);
-        text-align: left;
-        font: normal normal 600 20px/32px Manrope;
-        letter-spacing: 0px;
-        color: #3D087B;
-        text-transform: uppercase;
-        opacity: 1;
+.container4 {
+  top: 615px;
+  left: 437px;
+  width: 253px;
+  height: 117px;
+  position: absolute;
 
+  border: 1px solid var(--unnamed-color-ededed);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 0.23;
 }
-#contBox1{
-    top: 20px;
-        left: 100px;
-        width: 80px;
-        height: 90px;
-        position: absolute;
-        
-        /* UI Properties */
-        background: transparent url('timeline.svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
+.container5 {
+  top: 42px;
+  left: 706px;
+  width: 536px;
+  height: 130px;
+  position: absolute;
+  /* UI Properties */
+
+  border: 1px solid var(--unnamed-color-ededed);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 1;
+}
+.container6 {
+  top: 55px;
+  left: 766px;
+  width: 416px;
+  height: 130px;
+  position: absolute;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 0.71;
+}
+.container7 {
+  top: 67px;
+  left: 785px;
+  width: 379px;
+  height: 130px;
+  position: absolute;
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 0.22;
+}
+.container8 {
+  top: 212px;
+  left: 706px;
+  width: 536px;
+  height: 118px;
+  position: absolute;
+  /* UI Properties */
+
+  border: 1px solid var(--unnamed-color-ededed);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  opacity: 1;
+}
+.container9 {
+  top: 345px;
+  left: 707px;
+  width: 536px;
+  height: 341px;
+  position: absolute;
+  /* UI Properties */
+  background: transparent url("Component 30 – 1.svg") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.sub-container1 {
+  top: 10px;
+  left: 27px;
+  width: 517px;
+  height: 335px;
+  position: absolute;
+
+  /* UI Properties */
+  opacity: 1;
+}
+.clock {
+  top: 38px;
+  left: 119px;
+  width: 204px;
+  height: 77px;
+  position: absolute;
+  /* UI Properties */
+  background: transparent url("clock_logo.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#text1 {
+  top: 33px;
+  left: 490px;
+  width: 166px;
+  height: 57px;
+  /* UI Properties */
+
+  text-align: center;
+  font: normal normal normal 14px/20px Inter;
+  letter-spacing: 0px;
+  color: #858585;
+  padding-left: 5px;
+  padding-top: 20px;
+  opacity: 1;
+}
+#text2 {
+  top: 252px;
+  left: 728px;
+  width: 492px;
+  height: 38px;
+  /* UI Properties */
+
+  color: var(--unnamed-color-8e53f0);
+  text-align: center;
+  font: normal normal 900 30px/40px Bauhaus Hv BT;
+  letter-spacing: 0px;
+  color: #8e53f0;
+  text-transform: uppercase;
+
+  opacity: 1;
+}
+#text3 {
+  top: 6px;
+  left: 83px;
+  width: 381px;
+  height: 34px;
+  position: absolute;
+  /* UI Properties */
+
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal 900 27px/34px Bauhaus Hv BT;
+  letter-spacing: 0px;
+  color: black;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#text4 {
+  top: 3px;
+  left: 90px;
+  width: 111px;
+  height: 31px;
+  position: absolute;
+  /* UI Properties */
+
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal 600 24px/38px Manrope;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+#text5 {
+  top: 625px;
+  left: 449px;
+  width: 200px;
+  height: 94px;
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal bold 15px/25px Manrope;
+  position: absolute;
+  top: -9px;
+  left: -11px;
+  letter-spacing: 0px;
+  color: #840d8c;
+  opacity: 1;
+}
+#cont-1 {
+  top: 45px;
+  left: 25px;
+  width: 46px;
+  height: 26px;
+  position: absolute;
+  color: var(--unnamed-color-3d087b);
+  text-align: left;
+  font: normal normal 600 20px/32px Manrope;
+  letter-spacing: 0px;
+  color: #3d087b;
+  text-transform: uppercase;
+  opacity: 1;
+}
+#contBox1 {
+  top: 20px;
+  left: 100px;
+  width: 80px;
+  height: 90px;
+  position: absolute;
+
+  /* UI Properties */
+  background: transparent url("timeline.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 #contBox2 {
-    top: 20px;
-    left: 200px;
-    width: 80px;
-    height: 90px;
-    position: absolute;
-    
-    /* UI Properties */
-    background-color: #F6E2FF;
-    background: transparent url('timeline.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
+  top: 20px;
+  left: 200px;
+  width: 80px;
+  height: 90px;
+  position: absolute;
+
+  /* UI Properties */
+  background-color: #f6e2ff;
+  background: transparent url("timeline.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 #contBox3 {
-    top: 20px;
-    left: 300px;
-    width: 80px;
-    height: 90px;
-    position: absolute;
-   
-    /* UI Properties */
-    background: transparent url('timeline.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
+  top: 20px;
+  left: 300px;
+  width: 80px;
+  height: 90px;
+  position: absolute;
+
+  /* UI Properties */
+  background: transparent url("timeline.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 #contBox4 {
-    top: 20px;
-    left: 400px;
-    width: 80px;
-    height: 90px;
-    position: absolute;
-    
-    /* UI Properties */
-    background: transparent url('AM_svg.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
+  top: 20px;
+  left: 400px;
+  width: 80px;
+  height: 90px;
+  position: absolute;
+
+  /* UI Properties */
+  background: transparent url("AM_svg.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
-.timeText{
-    top: 7px;
-        left: 18px;
-        width: 33px;
-        height: 43px;
-        position: absolute;
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        color: var(--unnamed-color-8a11bf);
-        text-align: left;
-        font: normal normal normal 36px/43px Barlow;
-        letter-spacing: 0px;
-        color: #8A11BF;
-        opacity: 1;
+#timetext1 {
+  top: 7px;
+  left: 18px;
+  width: 33px;
+  height: 43px;
+  position: absolute;
+  color: var(--unnamed-color-8a11bf);
+  text-align: left;
+  font: normal normal normal 36px/43px Barlow;
+  letter-spacing: 0px;
+  color: #8a11bf;
+  opacity: 1;
 }
-.timeText2{
-    top: 45px;
-        left: 18px;
-        width: 56px;
-        height: 28px;
-        position: absolute;
-        /* UI Properties */
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        color: var(--unnamed-color-5f0089);
-        text-align: left;
-        font: normal normal normal 23px/28px Barlow;
-        letter-spacing: 0px;
-        color: #5F0089;
-        opacity: 1;
+#timetext2 {
+  top: 7px;
+  left: 18px;
+  width: 33px;
+  height: 43px;
+  position: absolute;
+  color: var(--unnamed-color-8a11bf);
+  text-align: left;
+  font: normal normal normal 36px/43px Barlow;
+  letter-spacing: 0px;
+  color: #8a11bf;
+  opacity: 1;
 }
-#timeText3{
-    top: 20px;
-        left: 12px;
-        width: 48px;
-        height: 43px;
-        position: absolute;
-        /* UI Properties */ 
-        text-align: left;
-        font: normal normal normal 36px/43px Barlow;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
+#timetext3 {
+  top: 7px;
+  left: 18px;
+  width: 33px;
+  height: 43px;
+  position: absolute;
+  color: var(--unnamed-color-8a11bf);
+  text-align: left;
+  font: normal normal normal 36px/43px Barlow;
+  letter-spacing: 0px;
+  color: #8a11bf;
+  opacity: 1;
 }
-#semicolon{
-    top: 50px;
-        left:185px;
-        width: 4px;
-        height: 22px;
-        font-size: 30px;
-        position: absolute;
-        background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box;
-        opacity: 1;
+
+.timeText2 {
+  top: 45px;
+  left: 18px;
+  width: 56px;
+  height: 28px;
+  position: absolute;
+  /* UI Properties */
+
+  color: var(--unnamed-color-5f0089);
+  text-align: left;
+  font: normal normal normal 23px/28px Barlow;
+  letter-spacing: 0px;
+  color: #5f0089;
+  opacity: 1;
+}
+#timeText3 {
+  top: 20px;
+  left: 12px;
+  width: 48px;
+  height: 43px;
+  position: absolute;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 36px/43px Barlow;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+#semicolon {
+  top: 50px;
+  left: 185px;
+  width: 4px;
+  height: 22px;
+  font-size: 30px;
+  position: absolute;
+  background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 #semicolon1 {
-    top: 50px;
-    left: 285px;
-    width: 4px;
-    height: 22px;
-    font-size: 30px;
-    position: absolute;
-    background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box;
-    opacity: 1;
+  top: 50px;
+  left: 285px;
+  width: 4px;
+  height: 22px;
+  font-size: 30px;
+  position: absolute;
+  background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
-#sub-cont{
-    top:23px;
-        left:0px;
-        width: 517px;
-        height: 45px;
-        position: absolute;
-        /* border: 1px solid black; */
-        /* UI Properties */
-        opacity: 1;
+#sub-cont {
+  top: 23px;
+  left: 0px;
+  width: 517px;
+  height: 45px;
+  position: absolute;
+  /* border: 1px solid black; */
+  /* UI Properties */
+  opacity: 1;
 }
 #sub-cont1 {
-    top: 113px;
-    left: 0px;
-    width: 517px;
-    height: 45px;
-    position: absolute;
-   
-    /* UI Properties */
-    opacity: 1;
+  top: 113px;
+  left: 0px;
+  width: 517px;
+  height: 45px;
+  position: absolute;
+
+  /* UI Properties */
+  opacity: 1;
 }
-#sub-cont2{
-    top: 193px;
-    left: 0px;
-    width: 517px;
-    height: 45px;
-    position: absolute;
-   
-    /* UI Properties */
-    opacity: 1;
+#sub-cont2 {
+  top: 193px;
+  left: 0px;
+  width: 517px;
+  height: 45px;
+  position: absolute;
+
+  /* UI Properties */
+  opacity: 1;
 }
 #sub-cont3 {
-    top: 273px;
-    left: 0px;
-    width: 517px;
-    height: 45px;
-    position: absolute;
-    
-    /* UI Properties */
-    opacity: 1;
+  top: 273px;
+  left: 0px;
+  width: 517px;
+  height: 45px;
+  position: absolute;
+
+  /* UI Properties */
+  opacity: 1;
 }
-.img1{
-    top: 7px;
-        left: 17px;
-        width: 34px;
-        height: 34px;
-        position: absolute;
-        /* UI Properties */
-        background: transparent url('wake_up.svg') 0% 0% no-repeat padding-box;
-        opacity: 1;
+#img1 {
+  top: 7px;
+  left: 17px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  /* UI Properties */
+  background: transparent url("wake_up.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
-.SetTime{
-    top: 7px;
-        left: 80px;
-        width: 141px;
-        height: 23px;
-       position: absolute;
-        text-align: left;
-        font: normal normal normal 18px/28px Manrope;
-        letter-spacing: 0px;
-        color: #3D087B;
-        opacity: 1;
+.SetTime {
+  top: 7px;
+  left: 80px;
+  width: 141px;
+  height: 23px;
+  position: absolute;
+  text-align: left;
+  font: normal normal normal 18px/28px Manrope;
+  letter-spacing: 0px;
+  color: #3d087b;
+  opacity: 1;
 }
-.Box{
-    top: 0px;
-        left: 230px;
-        width: 281px;
-        height: 45px;
-        position: absolute;
-        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-        border: 1px solid var(--unnamed-color-ededed);
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border: 1px solid #EDEDED;
-        border-radius: 4px;
-        opacity: 1;
+.Box {
+  top: 0px;
+  left: 230px;
+  width: 281px;
+  height: 45px;
+  position: absolute;
+
+  border: 1px solid var(--unnamed-color-ededed);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  opacity: 1;
 }
-.timmings{
-    top: 0px;
-        left: 0px;
-        width: 106px;
-        height: 18px;
-        position: absolute;
-        /* UI Properties */
-        text-align: left;
-        font: normal normal normal 14px/20px Manrope;
-        letter-spacing: 0.25px;
-        line-height: 40px;
-        color: #3D087BDE;
-        opacity: 1;
+.timmings {
+  top: 0px;
+  left: 0px;
+  width: 106px;
+  height: 18px;
+  position: absolute;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/20px Manrope;
+  letter-spacing: 0.25px;
+  line-height: 40px;
+  color: #3d087bde;
+  opacity: 1;
 }
 .img2 {
-    top: 7px;
-    left: 17px;
-    width: 34px;
-    height: 34px;
-    position: absolute;
-    /* UI Properties */
-    background: transparent url('lunch_time.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+  top: 7px;
+  left: 17px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  /* UI Properties */
+  background: transparent url("lunch_time.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
-.img3{
-    top: 7px;
-    left: 17px;
-    width: 34px;
-    height: 34px;
-    position: absolute;
-    /* UI Properties */
-    background: transparent url('nap_time.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+.img3 {
+  top: 7px;
+  left: 17px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  /* UI Properties */
+  background: transparent url("nap_time.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }

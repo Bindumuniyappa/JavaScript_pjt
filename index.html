@@ -12,54 +12,85 @@
       <div class="container1">
         <div class="sub-container1">
           <div id="sub-cont">
-            <span class="img1"></span
-            ><span class="SetTime">Set wake up time</span
-            ><span class="Box"
-              ><span class="timmings">10 AM - 11 AM</span></span
-            >
+            <span id="img1"></span>
+            <span class="SetTime">Set wake up time</span>
+            <select class="Box" id="wakeUpTimeDropdown">
+              10 AM - 11 AM
+              <option class="timmings" value="time">10 AM - 11 AM</option>
+              <option class="timmings" value="time">11 AM - 12 AM</option>
+              <option class="timmings" value="time">12 PM - 01 PM</option>
+              <option class="timmings" value="time">01 PM - 02 PM</option>
+            </select>
           </div>
           <div id="sub-cont1">
-            <span class="img2"></span><span class="SetTime">Set lunch time</span
-            ><span class="Box"><span class="timmings">12 PM - 1 PM</span></span>
+            <span class="img2"></span
+            ><span class="SetTime">Set lunch time</span>
+            <select class="Box" id="lunchTimeDropdown">
+              <option class="timmings">12 PM - 01 PM</option>
+              <option class="timmings">01 PM - 02 PM</option>
+              <option class="timmings">02 PM - 03 PM</option>
+              <option class="timmings">03 PM - 04 PM</option>
+            </select>
           </div>
           <div id="sub-cont2">
-            <span class="img3"></span><span class="SetTime">Set nap time</span
-            ><span class="Box"><span class="timmings">4 PM - 5 PM</span></span>
+            <span class="img3"></span><span class="SetTime">Set nap time</span>
+            <select class="Box" id="napTimeDropdown">
+              <option class="timmings">04 PM - 05 PM</option>
+              <option class="timmings">05 PM - 06 PM</option>
+              <option class="timmings">07 PM - 08 PM</option>
+              <option class="timmings">08 PM - 09 PM</option>
+            </select>
           </div>
           <div id="sub-cont3">
-            <span class="img1"></span><span class="SetTime">Set night time</span
-            ><span class="Box"><span class="timmings">4 PM - 5 PM</span></span>
+            <span class="img1"></span
+            ><span class="SetTime">Set night time</span>
+            <select class="Box" id="nightTimeDropdown">
+              <option class="timmings">09 PM - 10 PM</option>
+              <option class="timmings">10 PM - 11 PM</option>
+              <option class="timmings">11 PM - 12 AM</option>
+              <option class="timmings">12A PM -01 AM</option>
+            </select>
           </div>
         </div>
       </div>
       <div class="container2">
         <div id="text3">GOOD MORNING!! WAKE UP !!</div>
       </div>
-      <div class="container3">
+      <button class="container3" id="setAlarmBtn">
         <div id="text4">Set Alarm</div>
-      </div>
+      </button>
       <div class="container4">
-        <div id="text5">
-          Wake Up Time : 10AM - 11AM Lunch Time : 12PM - 1PM Nap Time : 4PM -
-          5PM Night Time : 8PM-9AM
-        </div>
+        <!-- <pre id="text5">
+          Wake Up Time : 10AM - 11AM 
+          Lunch Time : 12PM - 1PM 
+          Nap Time : 4PM - 5PM 
+          Night Time : 8PM-9AM
+        </pre> -->
+        <span>Wake Up Time : </span> <span id="wakeUpTime">10AM - 11AM</span>
+        <br />
+        <span>Lunch Time : </span> <span id="LunchTime">12PM - 1PM</span>
+        <br />
+        <span>Nap Time : </span> <span id="NapTime">4PM - 5PM </span>
+        <br />
+        <span>Night Time : </span> <span id="NightTime">8PM - 9AM</span>
+        <br />
       </div>
       <div class="container6"></div>
       <div class="container7"></div>
       <div class="container5">
         <div id="cont-1">TIME</div>
         <div id="contBox1">
-          <span class="timeText">10</span>
+          <span id="timetext1">10</span>
           <span class="timeText2">hours</span>
         </div>
         <div id="semicolon">:</div>
         <div id="contBox2">
-          <span class="timeText">00</span>
+          <span id="timetext2">00</span>
           <span class="timeText2">mins</span>
         </div>
         <div id="semicolon1">:</div>
         <div id="contBox3">
-          <span class="timeText">01</span>
+          <span id="timetext3">01</span>
           <span class="timeText2">secs</span>
         </div>
 
@@ -71,15 +102,8 @@
         <div id="text2">GRAB SOME HEALTY BREAKAST!!!</div>
       </div>
       <div class="container9"></div>
-      <div class="container10">
-        <span id="text1"
-          >the message and image will change according to the time</span
-        >
-      </div>
       <div class="clock"></div>
-      <div class="container11">
-        Time will be updated here after clicking on "Set Alarm"
-      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
