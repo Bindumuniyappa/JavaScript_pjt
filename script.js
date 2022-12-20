@@ -6,20 +6,25 @@ let secs=times.getSeconds();
 let session=document.getElementById("timeText3");
 let msg=document.getElementById("text3");
 let msgDisplay=document.getElementById("text2");
-// let displayImage=document.getElementById("img1")
+let displayImage=document.getElementById("alarmImage");
+    let am_pm=times.getHours()>=12 ? "PM" : "AM";
 
-if(hours>=12 && hours<=4){
+
+if((hours>=1 && hours<=4) && am_pm==="PM"){
     
-   
-    msgDisplay.innerText="LETS HAVE SOME LUNCH";
-    // displayImage.style.backgroundImage=url("C:\Users\91951\Desktop\Prepbytes\JavaScript_pjt\lunch_time.png");
-    
+    msgDisplay.innerHTML="LETS HAVE SOME LUNCH";
+    displayImage.style.background="url('lunch_image1.svg')"; 
     
 }
-else if(hours>=4 && hours<=8){
-    
+else if(hours>4 && hours<=8){
     
     msgDisplay.innerText="STOP YAWNING, GET SOME TEA..ITS JST EVENING";
+    displayImage.style.background="url('lunch_image.png')";
+}
+else if((hours>8 && hours<=12) && am_pm==="PM" ){
+    
+    msgDisplay.innerText="STOP YAWNING, GET SOME TEA..ITS JST EVENING";
+    displayImage.style.background="url('goodnight_image.svg')";
 }
 
 else{
