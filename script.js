@@ -9,17 +9,17 @@ function display() {
 
     if ((hours >= 1 && hours <= 4) && am_pm === "PM") {
         msgDisplay.innerHTML = "LETS HAVE SOME LUNCH";
-        displayImage.style.background = "url('lunch_image1.svg')";
+        displayImage.style.background = "url('Group 5183.svg')";
     }
 
-    else if (hours > 4 && hours <= 8 && am_pm === "PM") {
+    else if (hours > 4 && hours < 8 && am_pm === "PM") {
         msgDisplay.innerText = "STOP YAWNING, GET SOME TEA..ITS JST EVENING";
         displayImage.style.background = "url('lunch_image.png')";
     }
 
-    else if ((hours > 8 && hours <= 12) && am_pm === "PM") {
-        msgDisplay.innerText = "Its sleep time!";
-        displayImage.style.background = "url('goodnight_image.svg')";
+    else if ((hours >= 8 && hours <= 12) && am_pm === "PM") {
+        msgDisplay.innerText = "CLOSE YOUR EYES AND GO TO SLEEP";
+        displayImage.style.background = "url('Group 5194.svg')";
     }
 
     else if ((hours > 8 && hours <= 12) && am_pm === "AM") {
@@ -116,8 +116,6 @@ function getAlarmInterval(alarmHour, alarmPeriod) {
     }
 
     interval = alarmTime - currentDate.getTime();
-    // console.log(alarmTime);
-    // console.log((alarmTime - currentDate.getTime()) / 3600000);
     return interval;
 }
 
