@@ -23,8 +23,8 @@ function display() {
     }
 
     else if ((hours > 8 && hours <= 12) && am_pm === "AM") {
-        msgDisplay.innerText = "Happy Morning :)";
-        displayImage.style.background = "url('goodnight_image.svg')";
+        msgDisplay.innerText = "GRAB SOME!! HEALTHY BREAKFAST!!";
+        displayImage.style.background = "url('Component 30 – 1.png')";
     }
     else {
         msgDisplay.innerText = "Its not good to see laptop at this time :(";
