@@ -60,7 +60,6 @@
   height: 130px;
   position: absolute;
   /* UI Properties */
-
   border: 1px solid var(--unnamed-color-ededed);
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #ededed;
@@ -73,7 +72,6 @@
   width: 416px;
   height: 130px;
   position: absolute;
-
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 10px;
   opacity: 0.71;
@@ -97,8 +95,8 @@
   height: 118px;
   position: absolute;
   /* UI Properties */
-
-  border: 1px solid var(--unnamed-color-ededed);
+  text-align: center;
+  vertical-align: middle;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #ededed;
   border-radius: 10px;
@@ -111,7 +109,7 @@
   height: 341px;
   position: absolute;
   /* UI Properties */
-  background: transparent url("Component 30 – 1.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("GoodMorningImage.svg") 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -142,7 +140,6 @@
   width: 166px;
   height: 57px;
   /* UI Properties */
-
   text-align: center;
   font: normal normal normal 14px/20px Inter;
   letter-spacing: 0px;
@@ -159,6 +156,7 @@
   /* UI Properties */
   color: var(--unnamed-color-8e53f0);
   text-align: center;
+  margin-top: 35px;
   font: normal normal 900 30px/40px Bauhaus Hv BT;
   letter-spacing: 0px;
   color: #8e53f0;
@@ -174,7 +172,7 @@
   text-align: left;
   font: normal normal 900 27px/34px Bauhaus Hv BT;
   letter-spacing: 0px;
-  color: rgb(182, 70, 180);
+  color: rgb(47, 9, 46);
   text-transform: uppercase;
   opacity: 1;
 }
@@ -226,7 +224,6 @@
   width: 80px;
   height: 90px;
   position: absolute;
-
   /* UI Properties */
   background: transparent url("timeline.svg") 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -237,7 +234,6 @@
   width: 80px;
   height: 90px;
   position: absolute;
-
   /* UI Properties */
   background-color: #f6e2ff;
   background: transparent url("timeline.svg") 0% 0% no-repeat padding-box;
@@ -260,7 +256,6 @@
   width: 80px;
   height: 90px;
   position: absolute;
-
   /* UI Properties */
   background: transparent url("AM_svg.svg") 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -312,7 +307,6 @@
   height: 28px;
   position: absolute;
   /* UI Properties */
-
   color: var(--unnamed-color-5f0089);
   text-align: left;
   font: normal normal normal 23px/28px Barlow;
@@ -359,7 +353,6 @@
   width: 517px;
   height: 45px;
   position: absolute;
-  /* border: 1px solid black; */
   /* UI Properties */
   opacity: 1;
 }
@@ -369,7 +362,6 @@
   width: 517px;
   height: 45px;
   position: absolute;
-
   /* UI Properties */
   opacity: 1;
 }
@@ -379,7 +371,6 @@
   width: 517px;
   height: 45px;
   position: absolute;
-
   /* UI Properties */
   opacity: 1;
 }
@@ -389,7 +380,6 @@
   width: 517px;
   height: 45px;
   position: absolute;
-
   /* UI Properties */
   opacity: 1;
 }
@@ -421,7 +411,6 @@
   width: 281px;
   height: 45px;
   position: absolute;
-
   border: 1px solid var(--unnamed-color-ededed);
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #ededed;
@@ -461,4 +450,22 @@
   /* UI Properties */
   background: transparent url("nap_time.png") 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+.img4 {
+  top: 7px;
+  left: 17px;
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  opacity: 1;
+}
+.fa-solid{
+  width: 50px;
+  height:50px;
+}
+.fa-moon{
+  width: 50px;
+  height: 50px;
+  font-size: 35px;
+  color: rgb(77, 28, 123);
 }
