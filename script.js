@@ -76,7 +76,7 @@ function setAlarm() {
         // let lunchTimePeriod = lunchTimeDropdown.options[lunchTimeDropdown.selectedIndex].innerText.split("-")[0].split(" ")[1];
         if(Number.parseInt(lunchTimeHour)===currentHour){
             displayImage.style.background="url('LunchImage.svg')";
-            document.getElementById("text3").innerText = "Good Afternoon!! Take some sleep";
+            document.getElementById("text3").innerText = "Good Afternoon!! Take some food";
             
 
         }
